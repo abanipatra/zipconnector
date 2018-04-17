@@ -33,6 +33,8 @@ For information about usage our documentation at http://github.com/mulesoft/zipc
 
 We use GitHub:Issues for tracking issues with this connector. You can report new issues at this link http://github.com/mulesoft/zipconnector/issues.
 
+# Usage Details
+
 This connector can be used to convert one or more files into a zip.
 The payload may be a byte array of file, inputstream or list of byte array(each byte representing one file)
 The "fileNames" property needs to be set with the all the filename used in the zip process with comma separated e.g abc.txt,test.txt,sample.xml
