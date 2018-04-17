@@ -1,0 +1,6 @@
+<!-- BEGIN_INCLUDE(zipconnector:compress-as-zip) -->
+    <zipconnector:compress-as-zip config-ref="zipconnector__Configuration" doc:name="zipconnector"/>
+<!-- END_INCLUDE(zipconnector:compress-as-zip) -->
+<!-- BEGIN_INCLUDE(zipconnector:config) -->
+<zipconnector:config name="zipconnector__Configuration" additionalContentVariableNames="second" fileNames="abc.txt,second.txt" doc:name="zipconnector: Configuration"/>
+<!-- END_INCLUDE(zipconnector:config) -->
